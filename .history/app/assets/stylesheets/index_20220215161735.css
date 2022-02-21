@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 60px;
+    background-color: rgb(182, 228, 98);
+}
+.header-nav {
+    background-color: rgb(118, 182, 207);
+    position: fixed;
+    height: 80px;
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 25px;
+    font-family: cursive;
+} 
+nav {
+    margin-right: 5%;
+}  
+.title{
+    position: fixed;
+    height: 20px;
+    width: 100%;
+    left: 20px;
+    top: 7px;
+    color: rgb(219, 208, 172);
+    font-size: 30px;
+    font-family: cursive;
+    
+}
+.first-block {
+    height: 600px;
+    background-color: rgb(118, 182, 207);
+    overflow: hidden;
+}
+.image-box{
+    background-size: cover;
+    background-image: url("mypicture.JPG");
+    width: 400px;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 100px;
+    border-radius: 90px;
+}
+.character{
+    font-size: 100px;
+    margin-top: -420px;
+    padding-left: 750px;
+    font-family: cursive;
+}
+.picture{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 600px;
+    margin-top: 100px;
+}
+.second-block {
+    height: 700px;
+    background-color: rgb(118, 182, 207);
+}
+.food-box{
+    background-size: cover;
+    background-image: url("food.jpg");
+    height: 300px;
+    width: 270px;
+    padding-top: 50px;
+    margin-left: 122px;
+    border-radius: 10%;
+}
+.trip-container{
+    background-size: cover;
+    background-image: url("member.jpg");
+    height: 310px;
+    width: 180px;
+    padding-left: 230px;
+    padding-bottom: 35px;
+    margin-top: -340px;
+    margin-left: 800px;
+    border-radius: 10%;
+}
+.sports-box{
+    background-size: cover;
+    background-image: url("temple.png");
+    height: 330px;
+    width: 250px;
+    margin-top: -330px;
+    margin-left: 470px;
+    
+}
+.point-box{
+    background-size: cover;
+    background-image: url("yazirusi２.jpg");
+    height: 50px;
+    width: 50px;
+    padding-top: 70px;
+    margin-left: 180px;
+    margin-top: 50px;
+    padding-left: 50px;
+}
+.point-box2{
+    background-size: cover;
+    background-image: url("yazirusi２.jpg");
+    height: 50px;
+    width: 50px;
+    padding-top: 70px;
+    margin-left: 560px;
+    margin-top: -120px;
+    padding-left: 50px;
+}
+.point-box3{
+    background-size: cover;
+    background-image: url("yazirusi２.jpg");
+    height: 50px;
+    width: 50px;
+    padding-top: 70px;
+    margin-left: 950px;
+    margin-top: -120px;
+    padding-left: 50px;
+}
+.f-container{
+    display:flex; 
+  }
+.f-item1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 90px;
+    margin-bottom: 320px;
+    margin-left: 100px;
+    background: #d6c8ae;
+    box-shadow: 0px 0px 0px 10px #d6c8ae;
+    border: dashed 2px white;
+    border-radius: 3%;
+}
+.f-item1 p {
+    margin: 0; 
+    padding: 0;
+}
+.f-item2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 90px;
+    margin-bottom: 318px;
+    margin-left: 60px;
+    background: #d6c8ae;
+    box-shadow: 0px 0px 0px 10px #d6c8ae;
+    border: dashed 2px white;
+    border-radius: 3%;
+}
+.f-item2 p {
+    margin: 0; 
+    padding: 0;
+}
+.f-item3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 90px;
+    margin-bottom: 318px;
+    margin-left: 60px;
+    background: #d6c8ae;
+    box-shadow: 0px 0px 0px 10px #d6c8ae;
+    border: dashed 2px white;
+    border-radius: 3%;
+}
+.f-item3 p {
+    margin: 0; 
+    padding: 0;
+}
+.third-block {
+    height: 200px;
+    background-color: rgb(118, 182, 207);
+}
+.photo{
+    padding-top: 250px;
+    padding-left: 450px;
+    font-size: 70px;
+    font-family: cursive;
+}
+footer{
+    height: 10px;
+    background-color: #000;
+    padding-top: 250px;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: rgb(219, 208, 172);
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 50px;
+    background-color: rgb(118, 182, 207);
+    font-size: 15px;
+    color: #fff;
+}

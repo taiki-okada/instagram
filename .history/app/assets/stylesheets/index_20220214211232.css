@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 60px;
+    background-color: rgb(182, 228, 98);
+}
+.header-nav {
+    background-color: rgb(118, 182, 207);
+    position: fixed;
+    height: 60px;
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+} 
+nav {
+    margin-right: 5%;
+}  
+.title{
+    position: fixed;
+    height: 20px;
+    width: 100%;
+    left: 20px;
+    top: 7px;
+    color: rgb(219, 208, 172);
+    font-size: 30px;
+    
+}
+.first-block {
+    height: 500px;
+    background-color: rgb(202, 170, 82);
+    top
+}
+.image-box{
+    background-size: cover;
+    background-image: url("mypicture.JPG");
+    width: 300px;
+    height: 300px;
+    margin-top: 250px;
+    margin-left: 30px;
+    border-radius: 90px;
+}
+.image2{
+    background-size: cover;
+    background-image: url("freinds.JPG");
+    width: 300px;
+    height: 300px;
+    margin-top: -500px;
+    margin-left: 250px;
+    border-radius: 90px;
+
+}
+.second-block {
+    height: 500px;
+    background-color: #f0f0f0;
+}
+  
+.third-block {
+    height: 500px;
+    background-color: #f05f40;
+}
+  
+footer{
+    height: 50px;
+    background-color: #000;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: rgb(219, 208, 172);
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 50px;
+    background-color: #000;
+    font-size: 15px;
+    color: #fff;
+}
